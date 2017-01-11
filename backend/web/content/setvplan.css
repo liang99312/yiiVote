@@ -1,0 +1,61 @@
+.cmain{
+    clear:both;
+    padding:8px;
+    text-align:center;
+}
+
+#main0 .cul{
+    padding-left: 0px;
+    display: none;
+}
+.divmain ul{
+    list-style:none;
+}
+#main0 ul.block{
+    display: block;
+}
+
+#tblVdept{
+    table-layout: fixed;
+}
+
+#tblVdept td{	
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;	
+}
+#tblVdept th{
+    text-align: left;
+}
+.modal-body table{
+    table-layout: fixed;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    empty-cells: show;
+    cursor: pointer;
+    line-height: 30px;
+}
+.modal-body table td{
+    height:30px;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    empty-cells: show;
+    border-left: 1px solid #c1d2e8;
+    border-right: 1px solid #c1d2e8;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 14px;
+}
+#selDeptTbl td{
+    background: #f2f2f2;
+}
+.modal-content a {text-transform:none;text-decoration:none;} 
+.modal-content a:hover {text-decoration:none;} 

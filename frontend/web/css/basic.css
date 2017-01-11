@@ -1,0 +1,32 @@
+/* CSS Document */
+@charset 'gb2312';
+body ul li p h1 h2 h3 h4 h5 h6 textarea legend select {padding: 0;margin: 0;}
+body {font-size: 12px ;color:#353535;	text-align: center;font-family:'Î¢ÈíÑÅºÚ';}
+* {padding: 0;margin: 0;}
+#wrap {text-align: left;height: 2330px;}
+img {border: 0px none;}
+.fl {float: left;display: inline;}
+.fr {float: right;display: inline;}
+.clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}* html
+.clearfix{height:1%}
+.clearfix{display:block}
+.w1000 {width:1000px;margin: 0 auto;	overflow: hidden;text-align: center;zoom: 1;}
+.w100pc {width: 100%;overflow: hidden;zoom: 1;}
+ul li {list-style: none;}
+a {text-decoration: none;color:#666;}
+.red{color:#D7191E;}
+.mt5{margin-top:5px;}
+.mr5{margin-right:5px;}
+.ml15{margin-left:15px;}
+.mt10{margin-top:10px;}
+.mb10{margin-bottom:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.blank{height:10px;width:100%; opacity:0;}
+/*
+a:hover img{opacity:0.5;filter:alpha(opacity=50);}
+
+*/
+
